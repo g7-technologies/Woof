@@ -1,0 +1,134 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: NavbarFont;
+  src: url(./\/Font/navfont.ttf);
+}
+@font-face {
+  font-family: Prepotra;
+  src: url(./Font/perpeta.ttf);
+}
+@font-face {
+  font-family: Akira;
+  src: url(./Font/akira.otf);
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #a2a2a2;
+}
+header {
+  min-height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+main {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 93%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 48%;
+  max-width: 50%;
+}
+.col-md-3 {
+  -ms-flex: 0 0 23%;
+  flex: 0 0 23%;
+  max-width: 25%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.col-md-8 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+  margin: 0 auto;
+}
+.col-md-7 {
+  flex: 0 0 auto;
+  width: 58.3333333333%;
+}
